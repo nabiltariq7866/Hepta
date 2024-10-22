@@ -1,0 +1,807 @@
+@media screen and (max-width: 600px) {
+  .fa-bars {
+    font-size: 8vw !important;
+  }
+  .header1 > h1 {
+    font-size: 8vw !important;
+  }
+  .menubar > h1 {
+    font-size: 12vw !important;
+    margin-bottom: 6vw;
+    transition: all 1s;
+    cursor: pointer;
+  }
+  .menubar {
+    padding-top: 40vw;
+    display: none;
+  }
+  .fa-xmark {
+    font-size: 8vw !important;
+    margin-right: 4vw;
+  }
+  .innerConainer {
+    width: 70%;
+  }
+  .box > h1 {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 8vw !important;
+  }
+  .box > p {
+    font-size: 3.2vw;
+  }
+  .box .btn {
+    font-size: 5.2vw !important;
+    margin-top: 12vw;
+  }
+  .scrolldown {
+    bottom: 5%;
+    left: 39%;
+  }
+  .fa-play-rotate {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+  }
+  #page2 {
+    min-height: 130vh;
+  }
+  .page2inner {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0 10px;
+    flex-direction: column;
+  }
+  .page2left {
+    width: 100%;
+    height: 100%;
+  }
+  .page2right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+  }
+  .page2right h2 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 8vw;
+    margin-bottom: 2vw;
+  }
+  .page2right p {
+    margin-bottom: 1vw;
+    font-family: var(--font-family);
+    line-height: 8vw;
+    color: #6c757d;
+  }
+  .pt-4 {
+    margin-top: 4vw;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    border: 2px solid #dfe7ee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8vw;
+    transition: all 0.5s;
+    font-size: 8vw;
+  }
+  .pt-4 .text {
+    font-size: 6vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.5s;
+  }
+  .page3Container {
+    width: 100%;
+  }
+  .page3col1center {
+    width: 80%;
+  }
+  .page3col1center h1 {
+    font-size: 8vw;
+    font-weight: 700;
+    text-align: center;
+  }
+  .page3col1center p {
+    font-size: 4vw !important;
+    line-height: 8vw;
+    text-align: justify;
+    margin-top: 0vw !important;
+  }
+  .box1 {
+    width: 100%;
+    height: 100%;
+  }
+  .img-fluid {
+    width: 70px;
+    margin-bottom: 4vw;
+  }
+  .d-block p {
+    font-size: 4vw !important;
+    line-height: 8vw;
+    margin-bottom: 8vw;
+  }
+  #page4 {
+    width: 100%;
+  }
+  .page4Container {
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .page4col1inner {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 0 !important;
+  }
+  .page4col1inner > h2 {
+    font-size: 60px;
+  }
+  .page4col2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 276px;
+  }
+
+  .sliderContainer {
+    width: 100%;
+  }
+  .sliderContainer .slider:not(.active) {
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+
+  .sliderContainer img {
+    width: 100%;
+  }
+  .page4col1inner > p {
+    width: 100%;
+    text-align: justify;
+    margin: 0 0;
+    font-size: 6vw;
+    line-height: 8vw;
+  }
+  #page5 {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    padding: 12vw 0;
+  }
+  .page5Container {
+    width: 100%;
+  }
+  .page5col1inner {
+    width: 100%;
+  }
+  .page5col1inner h2 {
+    font-size: 8vw;
+  }
+
+  .page5col1inner p {
+    line-height: 8vw;
+    font-size: 16px;
+  }
+  .page5col2 {
+    flex-direction: column;
+  }
+  .page5col {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+  .meta-post {
+    font-size: 18px;
+  }
+  .mb-3 {
+    font-size: 26px;
+  }
+  .media-body > p {
+    font-size: 18px;
+    line-height: 6vw;
+  }
+
+  /* page6 responsive */
+  .page6Container {
+    width: 100%;
+  }
+  .page6col1inner {
+    width: 100%;
+  }
+  .page6col2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .page6row {
+    margin-bottom: 2vw;
+  }
+  .page6rowinner p {
+    margin-top: 4vw;
+  }
+  .page7Container {
+    width: 100%;
+  }
+  .page7col1inner {
+    width: 100%;
+  }
+  .page7col1inner p {
+    font-size: 4vw;
+    line-height: 8vw;
+    padding: 0 3vw;
+  }
+  .page7col2 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .page7col2row {
+    margin-bottom: 3vw;
+    width: 100% !important;
+  }
+
+  .page7col2row h3 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .footercontainer {
+    width: 100%;
+    min-height: 170vh !important;
+  }
+  .footercol1 {
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 14vw;
+  }
+  .footercol1 h3 {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+  .footercol3 {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  .footercol3 > p {
+    width: 100%;
+    margin-bottom: 3vw;
+  }
+  .footerspan {
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+  }
+  .form-controlfooter {
+    font-size: 6vw;
+  }
+
+  .form-controlfooter::placeholder {
+    font-style: italic;
+    opacity: 0.7;
+  }
+  .btnfooter {
+    font-size: 4vw;
+  }
+  .footercol2 {
+    width: 100%;
+    padding-top: 12vw;
+  }
+  .footercol2 p {
+    margin-bottom: 4vw;
+    line-height: 8vw;
+  }
+  /* Hotal responsive is starting */
+  .page4HotelContainer {
+    width: 100%;
+  }
+  .page4Hotelrow1 {
+    flex-direction: column;
+    align-items: last baseline;
+  }
+  .page4Hotelrow1col2 {
+    width: 100%;
+  }
+  .page4Hotelrow2col1 {
+    width: 100%;
+  }
+
+  .page4Hotelrow1col1 {
+    width: 100%;
+  }
+  /* about page receponsive */
+  .Galleryimagecol2 {
+    flex-direction: column;
+    margin-top: 4vw;
+  }
+  .GalleryimageContainer {
+    width: 100%;
+    padding: 0 0;
+  }
+  .GalleryBox {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    margin-bottom: 6vw;
+  }
+  /* Gallary responsive is here */
+  .aboutusheader {
+    background-position: 50% !important;
+    object-fit: cover;
+  }
+  .section2Container {
+    width: 100%;
+    margin: 0px 0px !important;
+  }
+  .section2row {
+    flex-direction: column;
+    width: 100%;
+  }
+  .imgBox {
+    width: 100% !important;
+  }
+  .imgBox2 {
+    width: 100%;
+  }
+  /* News page responsive */
+  .news {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .section2col1 {
+    width: 100%;
+  }
+  .section2col2 {
+    width: 100%;
+    padding: 0 0;
+  }
+  .section2col2rowcol {
+    margin: 0 0;
+    padding: 0 0;
+  }
+  .search-input {
+    font-size: 3.3vw;
+  }
+
+  .img-fluid {
+    width: 134px;
+    margin-right: 4vw;
+  }
+  /* contact page responsive  */
+  .contactform {
+    width: 100%;
+    margin-bottom: 8vw;
+  }
+  .sectionnews {
+    width: 100%;
+    height: 100vh;
+  }
+  .contact-info {
+    padding: 0 0;
+    margin: 0 0;
+  }
+  .adres {
+    width: 100%;
+    margin-top: 6vw !important;
+    height: auto;
+  }
+  .padA {
+    padding: 15px;
+  }
+  .btn-primary {
+    font-size: 3vw;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1290px) {
+  .fa-bars {
+    font-size: 8vw !important;
+  }
+  .header1 > h1 {
+    font-size: 8vw !important;
+  }
+  .menubar > h1 {
+    font-size: 12vw !important;
+    margin-bottom: 6vw;
+    transition: all 1s;
+    cursor: pointer;
+  }
+  .menubar {
+    padding-top: 40vw;
+    display: none;
+  }
+  .fa-xmark {
+    font-size: 8vw !important;
+    margin-right: 4vw;
+  }
+  .innerConainer {
+    width: 70%;
+  }
+  .box > h1 {
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 8vw !important;
+  }
+  .box > p {
+    font-size: 3.2vw;
+    text-align: center;
+  }
+  .box .btn {
+    font-size: 5.2vw !important;
+    margin-top: 12vw;
+  }
+  .scrolldown {
+    bottom: 5%;
+    left: 43%;
+  }
+  .fa-play-rotate {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+  }
+  #page2 {
+    min-height: 160vh;
+  }
+  .page2inner {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 0 10px;
+    flex-direction: column;
+  }
+  .page2left {
+    width: 100%;
+    height: 100%;
+  }
+  .page2right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+  }
+  .page2right h2 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 8vw;
+    margin-bottom: 2vw;
+  }
+  .page2right p {
+    margin-bottom: 1vw;
+    font-family: var(--font-family);
+    line-height: 4vw;
+    color: #6c757d;
+  }
+  .pt-4 {
+    margin-top: 4vw;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 15vw;
+    height: 15vw;
+    border: 2px solid #dfe7ee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8vw;
+    transition: all 0.5s;
+    font-size: 8vw;
+  }
+  .pt-4 .text {
+    font-size: 6vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.5s;
+  }
+  .page3Container {
+    width: 100%;
+  }
+  .page3col1center {
+    width: 80%;
+  }
+  .page3col1center h1 {
+    font-size: 8vw;
+    font-weight: 700;
+    text-align: center;
+  }
+  .page3col1center p {
+    font-size: 4vw !important;
+    line-height: 8vw;
+    text-align: justify;
+    margin-top: 0vw !important;
+  }
+  .box1 {
+    width: 100%;
+    height: 100%;
+  }
+  .img-fluid {
+    width: 70px;
+    margin-bottom: 4vw;
+  }
+  .d-block p {
+    font-size: 4vw !important;
+    line-height: 8vw;
+    margin-bottom: 8vw;
+  }
+  #page4 {
+    width: 100%;
+  }
+  .page4Container {
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .page4col1inner {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 0 !important;
+  }
+  .page4col1inner > h2 {
+    font-size: 60px;
+  }
+  .page4col2 {
+    width: 100%;
+    margin-top: 12vw;
+    margin-bottom: 12vw;
+  }
+
+  .sliderContainer {
+    width: 100%;
+  }
+  .sliderContainer .slider:not(.active) {
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+
+  .sliderContainer img {
+    width: 100%;
+  }
+  .page4col1inner > p {
+    width: 100%;
+    text-align: justify;
+    margin: 0 0;
+    font-size: 6vw;
+    line-height: 8vw;
+  }
+  #page5 {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    padding: 16vw 0;
+  }
+  .page5Container {
+    width: 100%;
+  }
+  .page5col1inner {
+    width: 100%;
+  }
+  .page5col1inner h2 {
+    font-size: 8vw;
+  }
+
+  .page5col1inner p {
+    line-height: 2vw;
+    font-size: 16px;
+  }
+  .page5col2 {
+    flex-direction: column;
+  }
+  .page5col {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+  .meta-post {
+    font-size: 18px;
+  }
+  .mb-3 {
+    font-size: 26px;
+  }
+  .media-body > p {
+    font-size: 18px;
+    line-height: 6vw;
+  }
+
+  /* page6 responsive */
+  .page6Container {
+    width: 100%;
+  }
+  .page6col1inner {
+    width: 100%;
+  }
+  .page6col2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .page6row {
+    width: 100%;
+    margin-bottom: 2vw;
+  }
+  .page6rowinner p {
+    width: 100%;
+    margin-top: 4vw;
+  }
+  .page7Container {
+    width: 100%;
+  }
+  .page7col1inner {
+    width: 100%;
+  }
+  .page7col1inner p {
+    font-size: 4vw;
+    line-height: 8vw;
+    padding: 0 3vw;
+  }
+  .page7col2 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .page7col2row {
+    margin-bottom: 3vw;
+    width: 100% !important;
+  }
+
+  .page7col2row h3 {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .footercontainer {
+    width: 100%;
+    min-height: 170vh !important;
+  }
+  .footercol1 {
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 14vw;
+  }
+  .footercol1 h3 {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+  .footercol3 {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  .footercol3 > p {
+    width: 100%;
+    margin-bottom: 3vw;
+  }
+  .footerspan {
+    margin-top: 2vw;
+    margin-bottom: 6vw;
+  }
+  .form-controlfooter {
+    font-size: 6vw;
+  }
+
+  .form-controlfooter::placeholder {
+    font-style: italic;
+    opacity: 0.7;
+  }
+  .btnfooter {
+    font-size: 4vw;
+  }
+  .footercol2 {
+    width: 100%;
+    padding-top: 12vw;
+  }
+  .footercol2 p {
+    margin-bottom: 4vw;
+    line-height: 8vw;
+  }
+  /* Hotal responsive is starting */
+  .page4HotelContainer {
+    width: 100%;
+  }
+  .page4Hotelrow1 {
+    flex-direction: column;
+    align-items: last baseline;
+  }
+  .page4Hotelrow1col2 {
+    width: 100%;
+  }
+  .page4Hotelrow2col1 {
+    width: 100%;
+  }
+
+  .page4Hotelrow1col1 {
+    width: 100%;
+  }
+  /* about page receponsive */
+  .Galleryimagecol2 {
+    flex-direction: column;
+    margin-top: 4vw;
+  }
+  .GalleryimageContainer {
+    width: 100%;
+    padding: 0 0;
+  }
+  .GalleryBox {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    margin-bottom: 6vw;
+  }
+  /* Gallary responsive is here */
+  .aboutusheader {
+    background-position: 50% !important;
+    object-fit: cover;
+  }
+  .section2Container {
+    width: 100%;
+    margin: 0px 0px !important;
+  }
+  .section2row {
+    flex-direction: column;
+    width: 100%;
+  }
+  .imgBox {
+    width: 100% !important;
+  }
+  .imgBox2 {
+    width: 100%;
+  }
+  /* News page responsive */
+  .news {
+    flex-direction: column;
+    padding: 0 15px;
+    margin: 0 0;
+    width: 100%;
+  }
+  .section2col1 {
+    width: 100%;
+  }
+  .section2col2 {
+    width: 100%;
+    padding: 0 0;
+  }
+  .section2col2rowcol {
+    margin: 0 0;
+
+    padding: 0 0;
+  }
+  .search-input {
+    font-size: 3.3vw;
+  }
+
+  .img-fluid {
+    width: 334px;
+  }
+  .meta {
+    font-size: 30px;
+    color: #adb5bd;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .meta1 {
+    font-size: 46px;
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+  }
+  /* contact page responsive  */
+  .contactform {
+    width: 100%;
+    margin-bottom: 8vw;
+  }
+  .sectionnews {
+    width: 100%;
+    height: 100vh;
+  }
+  .contact-info {
+    padding: 0 0;
+    margin: 0 0;
+  }
+  .adres {
+    width: 100%;
+    margin-top: 6vw !important;
+    height: auto;
+  }
+  .padA {
+    padding: 15px;
+  }
+  .btn-primary {
+    font-size: 3vw;
+  }
+}
